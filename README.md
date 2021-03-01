@@ -15,9 +15,6 @@ https://download.geofabrik.de/europe/germany.html
 XYZ Tiles -> Google Map
 ```
 
-![](Google Road.png)<!-- -->
-
-
 ### Step 3: Create a point vector
 ```
 Layer -> Create Layer -> New Shapefile Layer  
