@@ -15,6 +15,9 @@ https://download.geofabrik.de/europe/germany.html
 XYZ Tiles -> Google Map
 ```
 
+![](Google Road.png)<!-- -->
+
+
 ### Step 3: Create a point vector
 ```
 Layer -> Create Layer -> New Shapefile Layer  
@@ -27,6 +30,8 @@ CRS:                EPSG:32635 - WGS 84 / UTM zone 35N (This CRS helps to create
 
 ### Step 4: Toggle Editing shapefile -> Add Point Feature -> Point to the Virchow Street
 
+![](Bomb-site.png)<!-- -->
+
 ### Step 5: Buffer
 ```
 Input layer:        Bomb-site shapefile
@@ -36,4 +41,14 @@ End cap style:      Round
 
 ### Step 6: Add Building layer
 
-### Step 7: Vector -> Geoprocessing Tools -> Clip
+![](300-point-buffer.png)<!-- -->
+
+
+### Step 7: Vector -> Geoprocessing Tools -> Intersection
+
+```
+Input layer:    Bomb point.shp
+Overlay layer:  Building.shp
+```
+
+![](Intersection-point.png)<!-- -->
