@@ -49,3 +49,10 @@ Overlay layer:  Building.shp
 ```
 
 ![](Intersection-point.png)<!-- -->
+
+
+##  Line vector of Virchow Street
+![](300-line-buffer.png)<!-- -->
+
+## Building within the area of 300 m of Virchow Street
+![](Intersection-line.png)<!-- -->
